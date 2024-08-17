@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tech.jagasantagostino.com/sitemap-index.xml
