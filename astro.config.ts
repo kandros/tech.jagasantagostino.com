@@ -1,13 +1,13 @@
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
-import { defineConfig, envField } from "astro/config";
-
 import vercel from "@astrojs/vercel/serverless";
+import { defineConfig } from "astro/config";
+import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://tech.jagasantagostino.com",
-  integrations: [tailwind(), sitemap()],
+  integrations: [tailwind(), sitemap(), mdx()],
   output: "hybrid",
   adapter: vercel(),
   experimental: {
