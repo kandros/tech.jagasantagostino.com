@@ -4,7 +4,7 @@ import type { APIRoute } from "astro";
 const GET: APIRoute = (context) => {
   return rss({
     // `<title>` field in output xml
-    title: "Jaga Santagostino's Blog",
+    title: "Jaga Santagostino's tech Blog",
     // `<description>` field in output xml
     // TODO: Add description
     description: "",
