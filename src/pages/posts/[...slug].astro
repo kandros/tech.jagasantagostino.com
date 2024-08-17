@@ -11,7 +11,19 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<Layout>
-  <h1>{entry.data.title}</h1>
-  <Content />
+  <Layout>
+
+      
+    
+    
+  
+  <main class="max-w-screen-md p-3 md:px-12 md:py-24 prose  mx-auto">
+    <h1>{entry.data.title}</h1>
+    <h2>{entry.data.description}</h2>
+  
+    
+    <Content />
+  
+    
+  </main>
 </Layout>

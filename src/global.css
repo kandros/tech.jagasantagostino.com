@@ -3,12 +3,38 @@
 @tailwind utilities;
 
 @layer base {
-  h1 {
-    @apply text-2xl font-bold;
+  /* h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #ccc !important;
+    font-size: 42px !important;
   }
+
   h2 {
-    @apply text-xl font-bold;
+    font-family: "Lora", serif;
+    color: #bbb !important;
+    font-size: 28px !important;
+    line-height: 1.2;
+    font-style: oblique !important;
+    font-weight: 400 !important;
   }
+
+  h1 + h2 {
+    margin-top: 0 !important;
+    @apply pb-2;
+  } */
+
+  body {
+    font-family: "Hind Madurai", sans-serif;
+    background-color: #222;
+    color: #aaa;
+  }
+
+  /* p {
+    color: #aaa !important;
+    font-size: 17.5px !important;
+    line-height: 1.6 !important;
+    font-weight: 300 !important;
+  } */
 
   textarea {
     field-sizing: content;
