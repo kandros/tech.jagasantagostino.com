@@ -9,7 +9,9 @@ export default defineConfig({
   site: "https://tech.jagasantagostino.com",
   integrations: [tailwind(), sitemap(), mdx()],
   output: "hybrid",
-  adapter: vercel(),
+  adapter: vercel({
+    imageService: false,
+  }),
   experimental: {
     serverIslands: true,
     contentIntellisense: true,

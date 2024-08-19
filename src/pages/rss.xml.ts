@@ -1,7 +1,7 @@
 import rss from "@astrojs/rss";
 import type { APIRoute } from "astro";
 
-const GET: APIRoute = (context) => {
+export const GET: APIRoute = (context) => {
   return rss({
     // `<title>` field in output xml
     title: "Jaga Santagostino's tech Blog",
@@ -18,5 +18,3 @@ const GET: APIRoute = (context) => {
     customData: `<language>en-us</language>`,
   });
 };
-
-export default GET;
