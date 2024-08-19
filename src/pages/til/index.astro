@@ -2,14 +2,14 @@
 import { getCollection } from 'astro:content';
 import Layout from '@/components/Layout.astro';
 
-const posts = await getCollection('posts');
+const posts = await getCollection('til');
 ---
 <Layout>
-  <h2>Posts</h2>
+  <h2>"Today I Learned" posts</h2>
   <ul>
     {posts.map((a) => (
       <li>
-      <a href={`/posts/${a.slug}`} class="text-blue-700 underline visited:text-purple-900">{a.data.title}</a> 
+      <a href={`/til/${a.slug}`} class="text-blue-700 underline visited:text-purple-900">{a.data.title}</a> 
     </li>
   ))}
 </ul>

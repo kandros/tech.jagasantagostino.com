@@ -15,6 +15,9 @@ export default {
               color: "#ccc",
               fontSize: 42,
             },
+            code: {
+              color: "#fff",
+            },
             h2: {
               fontFamily: "Lora, serif",
               color: "#bbb",
