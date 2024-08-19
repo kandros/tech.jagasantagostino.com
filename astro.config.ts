@@ -12,6 +12,7 @@ export default defineConfig({
   adapter: vercel(),
   experimental: {
     serverIslands: true,
+    contentIntellisense: true,
     env: {
       schema: {},
     },
