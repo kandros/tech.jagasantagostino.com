@@ -28,6 +28,10 @@
     background-color: #222;
   }
 
+  a {
+    @apply text-green-300 underline visited:text-orange-400;
+  }
+
   /* p {
     color: #aaa !important;
     font-size: 17.5px !important;
