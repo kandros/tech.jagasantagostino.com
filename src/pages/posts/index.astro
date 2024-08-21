@@ -5,14 +5,14 @@ import Layout from '@/components/Layout.astro';
 const posts = await getCollection('posts');
 ---
 <Layout>
-  <div class="prose">
-    <h2>Posts</h2>
-      <ul>
-      {posts.map((a) => (
-        <li>
-        <a href={`/posts/${a.slug}`}>{a.data.title}</a>
-      </li>
-    ))}
-    </ul>
-  </div>
+    <div class="prose">
+      <h2>Posts</h2>
+        <ul>
+        {posts.map((a) => (
+          <li>
+          <a href={`/posts/${a.slug}`}>{a.data.title}</a>
+        </li>
+      ))}
+      </ul>
+    </div>
 </Layout>

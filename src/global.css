@@ -29,7 +29,7 @@
   }
 
   a {
-    @apply text-green-300 underline visited:text-orange-400;
+    @apply text-green-300  visited:text-orange-400;
   }
 
   /* p {

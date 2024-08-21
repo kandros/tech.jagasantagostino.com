@@ -13,7 +13,7 @@ export default {
             h1: {
               fontFamily: "Montserrat, sans-serif",
               color: "#ccc",
-              fontSize: 42,
+              fontSize: 30,
             },
             code: {
               color: "#fff",
@@ -21,7 +21,7 @@ export default {
             h2: {
               fontFamily: "Lora, serif",
               color: "#bbb",
-              fontSize: 28,
+              fontSize: 24,
               lineHeight: 1.2,
               fontStyle: "oblique",
               fontWeight: 400,
