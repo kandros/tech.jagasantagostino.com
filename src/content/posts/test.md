@@ -12,15 +12,13 @@ something
 
 
 
-```
+```html 
+<!-- src/layouts/BlogPost.astro -->
 <main class="max-w-screen-md p-3 md:px-12 md:py-24 prose  mx-auto">
-    <h1>{entry.data.title}</h1>
-    <h2>{entry.data.description}</h2>
+  <h1>{entry.data.title}</h1>
+  <h2>{entry.data.description}</h2>  
   
-    
-    <Content />
-  
-    
-  </main>
+  <Content />
+</main>
 ```
 

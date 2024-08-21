@@ -7,7 +7,7 @@ tags:
 - scripting
 ---
 
-```bash
+```bash 
 osascript -e 'tell application "Spotify" to return (name of current track) & " - " & (artist of current track)'
 ```
 
