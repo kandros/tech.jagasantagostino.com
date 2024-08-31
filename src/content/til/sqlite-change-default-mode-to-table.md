@@ -1,6 +1,6 @@
 ---
-title: SQLite - Change default mode to table
-date: 31 Aug 2024
+title:  Change default SQLite output mode to table
+pubDate: 31 Aug 2024
 tags:
   - sqlite
 ---
