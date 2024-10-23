@@ -22,15 +22,11 @@ export default defineConfig({
     }),
     mdx(),
   ],
-  output: "hybrid",
+  output: "static",
   adapter: vercel({
     imageService: false,
   }),
   experimental: {
-    serverIslands: true,
     contentIntellisense: true,
-    env: {
-      schema: {},
-    },
   },
 });
