@@ -1,18 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
-import Layout from '@/components/Layout.astro';
+import { getCollection } from "astro:content";
+import Layout from "@/components/Layout.astro";
 
-const posts = await getCollection('til');
+const posts = await getCollection("til");
 ---
+
 <Layout>
   <div class="prose">
     <h2>"Today I Learned" posts</h2>
-  <ul>
-    {posts.map((a) => (
-      <li>
-      <a href={`/til/${a.slug}`}>{a.data.title}</a> 
-    </li>
-  ))}
-</ul>
+    <ul>
+      {
+        posts.map((a) => (
+          <li>
+            <a href={`/til/${a.slug}`}>{a.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
   </div>
 </Layout>

@@ -6,24 +6,24 @@ export default {
       typography: {
         DEFAULT: {
           css: {
-            color: "#aaa",
-            backgroundColor: "#222",
-            fontFamily: "Hind Madurai, sans-serif",
+            // color: "#aaa",
+            // backgroundColor: "#222",
+            fontFamily: "Open Sans, sans-serif",
 
             h1: {
-              fontFamily: "Montserrat, sans-serif",
-              color: "#ccc",
-              fontSize: 30,
+              // fontFamily: "Montserrat, sans-serif",
+              // color: "#ccc",
+              // fontSize: 30,
             },
             code: {
               color: "#fff",
             },
             h2: {
-              fontFamily: "Lora, serif",
-              color: "#bbb",
-              fontSize: 24,
+              // fontFamily: "Lora, serif",
+              // color: "#bbb",
+              // fontSize: 24,
               lineHeight: 1.2,
-              fontStyle: "oblique",
+              // fontStyle: "oblique",
               fontWeight: 400,
             },
             "h1 + h2": {
