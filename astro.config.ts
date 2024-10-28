@@ -15,9 +15,9 @@ export default defineConfig({
     expressiveCode({
       defaultProps: {
         frame: "terminal",
-        overridesByLang: {
-          "bash,ps,sh,shell": { frame: "terminal" },
-        },
+        // overridesByLang: {
+        //   "bash,ps,sh,shell": { frame: "terminal" },
+        // },
       },
     }),
     mdx(),
