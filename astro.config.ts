@@ -16,7 +16,7 @@ export default defineConfig({
       defaultProps: {
         frame: "terminal",
         overridesByLang: {
-          "bash,ps,sh,shell": { frame: "none" },
+          "bash,ps,sh,shell": { frame: "terminal" },
         },
       },
     }),
